@@ -14,18 +14,9 @@ vim.opt.rtp:prepend(lazypath)
 
 local plugins = {
   "folke/tokyonight.nvim", -- 主题
-
-  {
-    "nvim-lualine/lualine.nvim",  -- 状态栏
-    dependencies = { "kyazdani42/nvim-web-devicons", opt = true }  -- 状态栏图标
-  },
-
-  {
-    "nvim-tree/nvim-tree.lua",  -- 文档树
-    dependencies = {
-      "nvim-tree/nvim-web-devicons", -- 文档树图标
-    }
-  },
+  "nvim-lualine/lualine.nvim",  -- 状态栏
+  "nvim-tree/nvim-tree.lua",  -- 文档树
+  "nvim-tree/nvim-web-devicons", -- 文档树图标
 
   "christoomey/vim-tmux-navigator", -- 用ctl-hjkl来定位窗口
   "nvim-treesitter/nvim-treesitter", -- 语法高亮
