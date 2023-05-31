@@ -17,12 +17,12 @@ local plugins = {
 
   {
     "nvim-lualine/lualine.nvim",  -- 状态栏
-    requires = { "kyazdani42/nvim-web-devicons", opt = true }  -- 状态栏图标
+    dependencies = { "kyazdani42/nvim-web-devicons", opt = true }  -- 状态栏图标
   },
 
   {
     "nvim-tree/nvim-tree.lua",  -- 文档树
-    requires = {
+    dependencies = {
       "nvim-tree/nvim-web-devicons", -- 文档树图标
     }
   },
